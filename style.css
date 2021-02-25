@@ -8,8 +8,20 @@
     border: 1px solid black;
     width: 1200px;
 }
-.background-header {
+.background {
+    
+    padding: 40px;
+    margin-top: 10px;
+}
+
+#color-pink {
+    background-color: pink;
+}
+#color-yellow {
     background-color: yellow;
-    padding: 80px;
+}
+.section-1 {
+    
+    padding: 200px;
     margin-top: 10px;
 }
