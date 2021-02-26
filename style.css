@@ -3,9 +3,9 @@
     margin: 0;
     padding: 0;
 }
-.wrapper {
-    margin: 0 auto;
-    width: 1000px;
+body > * {
+    margin: auto;
+    width: 70%;
 }
 .header-contenuto {
     padding: 40px;
