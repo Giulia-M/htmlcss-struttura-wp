@@ -12,9 +12,8 @@ main>section {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.header-contenuto {
+header {
     padding: 40px;
-    margin-top: 15px;
 }
 
 
@@ -26,41 +25,48 @@ main>section {
   
    padding-bottom: 15px;
 }
-main>section.clearfix::after{
+section>div.clearfix::after{
     display: table;
     content: "";
     clear: both;
-}
+} 
 .titolo-articolo {
     height: 70px;
 }
-.content-aside-left {
+
+.main-bot>aside, .main-bot>article {
+    float: left;
     height: 450px;
+}
+
+.content-aside-left {
+    
     margin-top: 15px; 
     width:19%;
 
-    float: left;
-    margin-right: 1%;
+   
+    margin-right: 1%; 
 }
 
+
 .content-aside-right {
-    height: 450px;
+   
     margin-top: 15px;
     width:19%;
-    float: left;
+   
     margin-left: 1%;
-}
+} 
+
 .content-centre {
-    height: 450px;
+   
     margin-top: 15px;
     width:60%;
-    float: left;
+    
    
 }
 
-.contenuto-footer {
+footer {
     height: 100px;
-    margin: 15px auto;
 }
 /* impostazione colori dei blocchi  */
 #color-pink {
