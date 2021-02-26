@@ -7,6 +7,11 @@ body > * {
     margin: auto;
     width: 70%;
 }
+body>*,
+main>section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .header-contenuto {
     padding: 40px;
     margin-top: 15px;
@@ -15,10 +20,10 @@ body > * {
 
 .section-1 {
     padding: 200px;
-    margin-top: 15px;
+   
 }
 .section-2 {
-   margin-top: 15px;
+  
    padding-bottom: 15px;
 }
 main>section.clearfix::after{
@@ -27,7 +32,7 @@ main>section.clearfix::after{
     clear: both;
 }
 .titolo-articolo {
-    height: 30px;
+    height: 70px;
 }
 .content-aside-left {
     height: 450px;
